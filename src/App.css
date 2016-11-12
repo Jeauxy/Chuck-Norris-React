@@ -1,0 +1,87 @@
+body{
+  background-color: black;
+}
+
+.previousJokes{
+
+}
+
+.main{
+  background-color: #4286f4;
+}
+
+
+.container{
+  background: url('../images/Chuck-Norris.jpg');
+  background-size: cover;
+  background-color: rgba(204, 204, 204, 0.2);
+  /*background-color: #2156a0;*/
+  padding: 40px 40px;
+
+}
+
+.joke{
+  text-align: center;
+  color: #e3e6ea;
+}
+
+.button{
+  color: #e3e6ea;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2156a0;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.list{
+  font-weight: bold;
+}
+
+li{
+  margin: 20px 0;
+}
+
+.newJoke{
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  /*color: #e3e6ea;*/
+}
+
+.previous{
+  background-color: #2156a0;
+  text-decoration: underline;
+  color: #e3e6ea;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
