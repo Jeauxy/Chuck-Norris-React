@@ -12,7 +12,6 @@ body{
 
 
 .container{
-  background: url('../images/Chuck-Norris.jpg');
   background-size: cover;
   background-color: rgba(204, 204, 204, 0.2);
   /*background-color: #2156a0;*/
