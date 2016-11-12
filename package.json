@@ -6,6 +6,9 @@
     "gh-pages": "^0.11.0",
     "react-scripts": "0.7.0"
   },
+  "homepage": {
+    "url":"https://jeauxy.github.io/Chuck-Norris-React/"
+  },
   "dependencies": {
     "axios": "^0.15.2",
     "react": "^15.3.2",
@@ -19,5 +22,5 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
   },
-  "homepage": "https://jeauxy.github.io/Chuck-Norris-React/"
+
 }
