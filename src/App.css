@@ -30,6 +30,9 @@ body{
 
 .container-2{
   height:250px;
+  background-image: url("../images/chuck-dark.jpg");
+  background-size: cover;;
+  background-repeat: no-repeat;
   overflow:scroll;
   background-color: #000;
   padding: 50px 50px;
