@@ -48,14 +48,14 @@ body{
 }*/
 
 .button{
-  color: #000;
+  color: #fff;
   display: block;
   margin: 0 auto;
   padding: 20px;
-  background-color: #009FE8;
+
+  background-color: rgba(0,0,0,.70);
   font-size: 18px;
   font-weight: bold;
-  border: none;
   border-radius: 10px;
 }
 
