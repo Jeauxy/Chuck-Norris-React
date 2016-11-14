@@ -49,9 +49,11 @@ class App extends Component {
         <div className="container">
           <h1 className="title">Chuck Norris' Round House Joke Generator</h1>
         </div>
-        <h2 className="joke">Here's Your Joke:</h2>
-        <h2 className="newJoke">{this.state.isFetchingJoke ? 'Loading joke..' : this.state.randomJoke}</h2>
-        <button className="button" onClick={(e) => this._buttonClick(e)}>Get Another Joke!</button>
+        <div className="container-2">
+          <h2 className="joke">Here's Your Joke:</h2>
+          <h2 className="newJoke">{this.state.isFetchingJoke ? 'Loading joke..' : this.state.randomJoke}</h2>
+          <button className="button" onClick={(e) => this._buttonClick(e)}>Get Another Joke!</button>
+        </div>
         <div className="previousJokes">
           <h2 className="previous">Previous Jokes</h2>
         </div>
