@@ -4,6 +4,7 @@
 
 body{
   background-color: #009FE8 ;
+  background-image: url("../images/chuck-retro.png");
 }
 
 .previousJokes{
@@ -17,7 +18,6 @@ body{
 
 .container{
   background-image: url("../images/chuck-retro.png");
-  background-image: url();
   background-size: contain;
   background-repeat:no-repeat;
   background-color: #009FE8;
@@ -26,6 +26,8 @@ body{
 }
 
 .container-2{
+  height:250px;
+  overflow:scroll;
   background-color: #000;
   padding: 50px 50px;
 }
@@ -40,12 +42,12 @@ body{
 }*/
 
 .button{
-  color: #fff;
+  color: #000;
   display: block;
   margin: 0 auto;
   padding: 20px;
   background-color: #009FE8;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   border: none;
   border-radius: 10px;
@@ -64,7 +66,11 @@ li{
 
 .newJoke{
   text-align: center;
+  height: 100px;
+  /*background-color: #fff;*/
   color: #fff;
+  padding-top: 25px;
+  padding-bottom: 70px;
 }
 
 .title{
@@ -74,19 +80,9 @@ li{
 
 .previous{
   background-color: #009FE8;
-  text-decoration: underline;
   color: #e3e6ea;
   padding: 40px 40px;
   text-align: center;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
 
 .App-header {
