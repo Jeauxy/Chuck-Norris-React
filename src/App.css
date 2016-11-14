@@ -1,5 +1,9 @@
+* {
+    outline: none;
+}
+
 body{
-  background-color: black;
+  background-color: #009FE8 ;
 }
 
 .previousJokes{
@@ -7,16 +11,23 @@ body{
 }
 
 .main{
-  background-color: #4286f4;
+  background-color: #009FE8;
 }
 
 
 .container{
-  background-size: cover;
-  background-color: rgba(204, 204, 204, 0.2);
-  /*background-color: #2156a0;*/
-  padding: 40px 40px;
+  background-image: url("../images/chuck-retro.png");
+  background-image: url();
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-color: #009FE8;
+  padding: 60px 60px;
 
+}
+
+.container-2{
+  background-color: #000;
+  padding: 50px 50px;
 }
 
 .joke{
@@ -24,19 +35,27 @@ body{
   color: #e3e6ea;
 }
 
+/*.button-main{
+  padding-top: 25px;
+}*/
+
 .button{
-  color: #e3e6ea;
+  color: #fff;
   display: block;
   margin: 0 auto;
   padding: 20px;
-  background-color: #2156a0;
+  background-color: #009FE8;
   font-size: 15px;
   font-weight: bold;
   border: none;
+  border-radius: 10px;
 }
 
 .list{
+  list-style-type: none;
   font-weight: bold;
+  color: #000;
+  background-color: #009FE8;
 }
 
 li{
@@ -45,6 +64,7 @@ li{
 
 .newJoke{
   text-align: center;
+  color: #fff;
 }
 
 .title{
@@ -53,7 +73,7 @@ li{
 }
 
 .previous{
-  background-color: #2156a0;
+  background-color: #009FE8;
   text-decoration: underline;
   color: #e3e6ea;
   padding: 40px 40px;
